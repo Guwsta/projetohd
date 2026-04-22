@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+/* Variáveis CSS */
+:root {
+    --color-light: #f4f4f4;
+    --color-dark: #222;
+    --color-orange: #ff6600;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* formatações básicas */
+a {
+    color: var(--color-light);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: var(--color-orange);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.hero {
+    padding-inline: 30px;
+    color: var(--color-light);
+    height: 100vh;
+    background-image: url(../images/motos/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.hero-header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    height: 100vh;
+}
